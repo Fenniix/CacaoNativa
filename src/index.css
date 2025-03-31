@@ -16,37 +16,37 @@ a {
   color: #3E2723; /* Café oscuro para links */
   text-decoration: inherit;
 }
-a:hover {
-  color: #8D6E63; /* Café claro al hover */
-}
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #f5f0eb; /* Fondo consistente */
+  background-color: #F5F5F5; /* Fondo consistente */
+  color: #212121; /* Texto gris oscuro */
+  margin: 0;
+  font-family: 'Arial', sans-serif;
 }
 
 h1 {
   font-size: 2.5em; /* Reducido para mejor proporción */
   line-height: 1.1;
-  color: #3E2723;
+  color: #000000;
 }
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  border: none;
+  padding: 0.5rem 1rem;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #8D6E63; /* Café claro */
+  background-color: #424242; /* Café claro */
   color: white; /* Texto blanco */
   cursor: pointer;
   transition: all 0.25s;
 }
 button:hover {
-  background-color: #3E2723; /* Café oscuro al hover */
+  background-color: #000000; /* Café oscuro al hover */
 }
 
 /* --- Estilos específicos para componentes (añade esto al final) --- */
@@ -76,10 +76,10 @@ button:hover {
 }
 
 .product-card {
-  border: 1px solid #ddd;
   padding: 1rem;
   border-radius: 8px;
-  background: white;
+  background-color: #EEEEEE;
+  border: 1px solid #E0E0E0;
 }
 
 .product-image {

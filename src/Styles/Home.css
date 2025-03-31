@@ -1,0 +1,231 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #000000;
+  padding: 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+.navbar-logo {
+  font-size: 28px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Times New Roman', serif;
+  background: linear-gradient(to right, #B8860B, #DAA520);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  position: absolute;
+  left: 5%;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+  margin-right: 40px;
+}
+
+.navbar-links a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #D4AF37;
+}
+
+/* CARRUSEL (Tus estilos actuales con ajustes) */
+.carousel-container {
+  width: 100%;
+  height: 450px; /* Cambiado de max-height a height */
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-wrapper {
+  height: 100%;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 10%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* SECCIÓN DE PRODUCTOS (Nuevos estilos integrados) */
+.product-section {
+  position: relative;
+  margin-top: -100px; /* Superposición sobre el carrusel */
+  padding-bottom: 50px;
+  z-index: 10;
+  background-color: #FFFFFF;
+  width: 95%;
+  left: 50px;
+  border-radius: 10px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 0 auto;
+
+}
+.section-title {
+  text-align: center;
+  font-size: 35px; 
+  color: #000000;
+  position: relative;
+  font-family: 'Times New Roman', serif;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  margin-top: 30px;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.product-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-title {
+  color: #3E2723;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', serif;
+}
+
+.product-description {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  min-height: 40px;
+}
+
+.product-price {
+  color: #B8860B;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+.add-to-cart {
+  background: linear-gradient(to right, #3E2723, #5D4037);
+  color: white;
+  border: none;
+  padding: 12px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 50%;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.add-to-cart:hover {
+  background: linear-gradient(to right, #5D4037, #3E2723);
+  transform: scale(1.02);
+}
+/* Estilos para la sección del mapa */
+.map-section {
+  padding: 40px 20px;
+  background-color: #f9f5f0;
+  text-align: center;
+}
+
+.map-container {
+  margin: 20px auto;
+  max-width: 1000px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.location-info {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #5a3e2b;
+}
+
+.location-info p {
+  margin: 8px 0;
+}
+
+/* RESPONSIVE (Tus estilos actuales + nuevos) */
+@media (max-width: 768px) {
+  .carousel-container {
+    height: 400px;
+  }
+  
+  .navbar-logo {
+    font-size: 22px;
+    left: 15%;
+  }
+  
+  .navbar-links {
+    gap: 15px;
+    margin-right: 10px;
+  }
+  
+  .navbar-links a {
+    font-size: 14px;
+  }
+
+  .product-container {
+    margin-top: -50px;
+    padding: 0 10px 30px;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .product-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-logo {
+    position: static;
+    margin-left: 0;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navbar-links {
+    margin-right: 0;
+  }
+}
