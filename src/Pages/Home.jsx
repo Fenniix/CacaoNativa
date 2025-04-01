@@ -147,7 +147,7 @@ const MapSection = () => {
       <h2 className="section-title">Nuestras Ubicaciones</h2>
       <div className="map-container">
         <LoadScript
-          googleMapsApiKey="AIzaSyDzdrgcmR7Hx0L_kCqHDg4JJS1iJ_YDCso" // Reemplaza con tu API Key real
+          googleMapsApiKey="AIzaSyDzdrgcmR7Hx0L_kCqHDg4JJS1iJ_YDCso" 
         >
           <GoogleMap
             mapContainerStyle={mapContainerStyle}
