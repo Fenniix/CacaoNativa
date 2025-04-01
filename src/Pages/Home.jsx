@@ -66,36 +66,43 @@ const ProductSection = () => {
     {
       id: 1,
       name: "Cacao en Polvo Premium",
-      price: "$25.00",
-      image: "/img/producto1.jpg",
+      price: "$300.00",
+      image: "../img/img1.jpg",
       description: "100% puro, origen orgánico"
     },
     {
       id: 2,
       name: "Tableta de Chocolate 70%",
-      price: "$35.00",
-      image: "/img/producto2.jpg",
+      price: "$60.00",
+      image: "../img/img3.jpg",
       description: "Elaboración artesanal"
     },
     {
       id: 3,
       name: "Nibs de Cacao",
-      price: "$50.00",
-      image: "/img/producto3.jpg",
+      price: "$250.00",
+      image: "../img/img2.jpg",
       description: "Crujientes y nutritivos"
     },
     {
       id: 4,
-      name: "Nibs de Cacao",
-      price: "$70.00",
-      image: "/img/producto3.jpg",
-      description: "Crujientes y nutritivos"
+      name: "Frappe de chocolate con cafe",
+      price: "$100.00",
+      image: "../img/img4.jpg",
+      description: "Delicioso y artesanal"
     },
     {
       id: 5,
-      name: "Nibs de Cacao",
+      name: "Chocolate maya caliente (100% cacao)",
+      price: "$52.00",
+      image: "../img/img5.png",
+      description: "Caliente y con sabor"
+    },
+    {
+      id: 6,
+      name: "Frappe de cafe",
       price: "$80.00",
-      image: "/img/producto3.jpg",
+      image: "../img/img6.jpg",
       description: "Crujientes y nutritivos"
     }
   ];
