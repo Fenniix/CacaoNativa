@@ -13,6 +13,7 @@ const Navbar = () => {
       <Link to="/" className="navbar-logo">Cacao Nativa</Link>
       <div className="navbar-links">
         <Link to="/">Inicio</Link>
+        <Link to="/nosotros">Nosotros</Link>
         <Link to="/products">Productos</Link>
         <Link to="/cart">Carrito 🛒</Link>
       </div>
@@ -108,11 +109,11 @@ const ProductSection = () => {
   ];
 
   return (
-    <div className="product-section">
+    <div className="product-section1">
       <h2 className="section-title">Nuestros Productos</h2>
       <div className="product-grid">
         {products.map(product => (
-          <div key={product.id} className="product-card">
+          <div key={product.id} className="product-card1">
             <img src={product.image} alt={product.name} className="product-image"/>
             <div className="product-info">
               <h3>{product.name}</h3>
@@ -137,8 +138,8 @@ const MapSection = () => {
   };
 
   const center = {
-    lat: 19.4326,  // Coordenadas de ejemplo (Ciudad de México)
-    lng: -99.1332
+    lat: 16.745737086030985,  // Coordenadas de Cacao Nativa
+    lng: -93.07488379336806
   };
 
   return (

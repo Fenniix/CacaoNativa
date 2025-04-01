@@ -3,8 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: #3E2723; /* Cambiado a café oscuro*/
-  background-color: #f5f0eb; /* Fondo beige claro (original era oscuro) */
+  color: #3E2723; 
+  background-color: #f5f0eb; 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -13,7 +13,7 @@
 
 a {
   font-weight: 500;
-  color: #3E2723; /* Café oscuro para links */
+  color: #3E2723; 
   text-decoration: inherit;
 }
 
@@ -21,14 +21,14 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #F5F5F5; /* Fondo consistente */
-  color: #212121; /* Texto gris oscuro */
+  background-color: #F5F5F5; 
+  color: #212121; 
   margin: 0;
   font-family: 'Arial', sans-serif;
 }
 
 h1 {
-  font-size: 2.5em; /* Reducido para mejor proporción */
+  font-size: 2.5em; 
   line-height: 1.1;
   color: #000000;
 }
@@ -40,17 +40,16 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #424242; /* Café claro */
-  color: white; /* Texto blanco */
+  background-color: #424242; 
+  color: white; 
   cursor: pointer;
   transition: all 0.25s;
 }
 button:hover {
-  background-color: #000000; /* Café oscuro al hover */
+  background-color: #000000; 
 }
 
-/* --- Estilos específicos para componentes (añade esto al final) --- */
-/* HeroBanner */
+/* Banner */
 .hero-banner {
   display: flex;
   padding: 2rem;
@@ -65,7 +64,7 @@ button:hover {
 
 /* ProductGrid */
 .product-grid {
-  padding: 2rem;
+  padding: 50px;
   text-align: center;
 }
 
@@ -80,6 +79,15 @@ button:hover {
   border-radius: 8px;
   background-color: #EEEEEE;
   border: 1px solid #E0E0E0;
+}
+
+.product-card1 {
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #E0E0E0;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .product-image {

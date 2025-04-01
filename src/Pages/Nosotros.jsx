@@ -10,7 +10,6 @@ const Navbar = () => {
       <div className="navbar-links">
         <Link to="/">Inicio</Link>
         <Link to="/products">Productos</Link>
-        <Link to="/nosotros">Nosotros</Link>
         <Link to="/cart">Carrito 🛒</Link>
       </div>
     </nav>
@@ -55,12 +54,12 @@ const Nosotros = () => {
           <h2>Nuestro Equipo</h2>
           <div className="team-members">
             <div className="member">
-              <img src="/img/team1.jpg" alt="Fundadora"/>
+              <img src="/img/Roberto.jpg" alt="Fundadora"/>
               <h3>María González</h3>
               <p>Fundadora y Chocolatiera</p>
             </div>
             <div className="member">
-              <img src="/img/team2.jpg" alt="Productor"/>
+              <img src="/img/Marlon.jpg" alt="Productor"/>
               <h3>Juan Pérez</h3>
               <p>Productor de Cacao</p>
             </div>
