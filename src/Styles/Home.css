@@ -46,10 +46,10 @@
   color: #D4AF37;
 }
 
-/* CARRUSEL (Tus estilos actuales con ajustes) */
+/* CARRUSEL */
 .carousel-container {
   width: 100%;
-  height: 450px; /* Cambiado de max-height a height */
+  height: 450px;
   overflow: hidden;
   position: relative;
 }
@@ -65,7 +65,7 @@
   object-position: center;
 }
 
-/* SECCIÓN DE PRODUCTOS (Nuevos estilos integrados) */
+/* SECCIÓN DE PRODUCTOS */
 .product-section {
   position: relative;
   margin-top: -100px; /* Superposición sobre el carrusel */
@@ -189,7 +189,7 @@
   transform: scale(0.95);
 }
 
-/* Estilos para la sección del mapa */
+/* Estilos del mapa */
 .map-section {
   padding: 40px 20px;
   background-color: #f9f5f0;
@@ -214,7 +214,6 @@
   margin: 8px 0;
 }
 
-/* RESPONSIVE (Tus estilos actuales + nuevos) */
 @media (max-width: 768px) {
   .carousel-container {
     height: 400px;

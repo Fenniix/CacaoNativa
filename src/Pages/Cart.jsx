@@ -17,7 +17,7 @@ const Navbar = () => {
 };
 
 const Cart = () => {
-  // Ejemplo de datos del carrito (en una app real esto vendría de un estado global o props)
+  // Ejemplo de datos del carrito
   const [cartItems, setCartItems] = useState([
     {
       id: 1,
@@ -47,7 +47,6 @@ const Cart = () => {
       item.id === id ? {...item, quantity: newQuantity} : item
     ));
   };
-
   // Eliminar producto
   const removeItem = (id) => {
     setCartItems(cartItems.filter(item => item.id !== id));

@@ -145,7 +145,7 @@
   
   .product-actions {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
+    justify-content: center;
     margin-top: 15px;
   }
   
@@ -153,12 +153,12 @@
     background: #5a3e2b;
     color: white;
     border: none;
-    padding: 10px 20px; /* Aumenté un poco el padding para mejor apariencia */
+    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s;
-    width: 100%; /* Ocupa todo el ancho disponible */
-    max-width: 180px; /* Limita el ancho máximo para no estirarse demasiado */
+    width: 100%; 
+    max-width: 180px;
   }
   
   .add-to-cart-btn:hover {

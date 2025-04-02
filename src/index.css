@@ -134,7 +134,7 @@ button:hover {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    color: #f5f0eb; /* Texto claro en modo oscuro */
+    color: #f5f0eb; 
     background-color: #1a1a1a;
   }
   .product-card,
